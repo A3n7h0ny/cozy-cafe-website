@@ -1,0 +1,111 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    margin: 10px;
+    width: 98.5%;
+    justify-content: space-between;
+    
+
+  }
+  nav ul li img {
+    
+    width: 20px;
+    cursor: pointer;
+    padding: 0px;
+    transition: 0.3s;
+  }
+  nav ul li img:hover {
+    color: blue;
+  }
+  nav ul li a:hover {
+    color: black;
+
+  }
+  nav ul li a:active {
+    color: beige;
+  }
+  
+  nav .logo {
+    background-color: rgb(180, 105, 8);
+    color: white;
+    padding: 0px;
+    border-radius: 20px;
+  }
+  nav {
+    background-color: rgb(180, 105, 8);
+    color: white;
+    padding: 0px;
+    border-radius: 15px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+  }
+.logo .name {
+    width: 350px;
+    font-size: 5vmin;
+    padding: 16px 0 16px 0px;
+    margin: 0px;
+}
+  .logo img {
+    float: left;
+    display: block;
+    width: 45px;
+    border-radius: 70px;
+    padding: 10px;
+    grid-template-columns:1fr 100px 0px;
+    
+
+  }
+  span {
+    color: rgb(180, 105, 8);
+  }
+body {
+    background-color: rgb(46, 44, 44);
+}
+
+
+.out {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.out h3 {
+    color: white;
+    font-size: 7vmin;
+    margin-top: 150px;
+    text-align: center;
+
+}
+.out img {
+    width: 30rem;
+    border-radius: 20px;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px;
+    
+}
+.out p {
+    color: white;
+    font-size: 4vmin;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.out :hover {
+    opacity: .9;
+}
