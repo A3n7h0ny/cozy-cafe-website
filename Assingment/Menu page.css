@@ -1,205 +1,164 @@
 
-
-.nav{
-    background-image:url('bgp.jpeg');
-    overflow: hidden;
-    border-radius: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 100%;
-}
-.nav a{
-    float: right;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bolder;
-}
-.nav a:hover {
-    background-color: #ddd;
-    color:black;
-}
-
-.heading {
-    text-align:center;
-}
-.content {
-    font-size: 20px;
-}
-.nav h2{
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;
-    text-align: center;
-    vertical-align: bottom;
-    margin-bottom: 0px;
-    padding: 1px;
-    padding-bottom: 1px;
-    padding-top: 1px;
-}
-body {
-    background-color: rgb(253, 213, 172); 
-    
-}
-
-
-/* hotdrinks */
-.hotdrinks .hotdrinks h3 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-
-
-.hotdrinks .thumbnail-row2 {
-    grid-template-rows: auto 1fr;
-    border-radius: 20px;
-    box-shadow: 0 0 15px black;
-    transition: .2s ease-in-out;
-    position: relative;
-    margin: 35px;
-    display: block;
-    width: 320px;
-    float: left; 
-    height: 500px;
-    padding: 10px;
-}
-.hotdrinks .thumbnail {
-    float: left;
-    position: relative;
-    width: 320px;
-    height: 330px;
-    border-radius: 15px 15px 10px 10px;
-    cursor: pointer;
-}
-.buy {
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  nav {
     background-color: rgb(180, 105, 8);
-    border-style: solid;
-    border-color: rgb(180, 105, 8);
-    color: white;
-    border-radius: 15px;
-    cursor: pointer;
-    transition: opacity 0.15;
-    position: absolute;
-}
-.buy:hover {
-    background-color: rgb(180, 105, 8);
-    opacity: 0.8;
-    color: black;
-}
-.hotdrinks .hd {
-    color:  rgb(180, 105, 8);
-}
-
-/* hotdrinks end */
-
-
-/* pasteries start */
-.pasteries-section .hd {
-    color:  rgb(180, 105, 8);
-}
-.pasteries-section .pasteries h4 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-.pasteries-section .thumbnail-row2 {
-    grid-template-rows: auto 1fr;
-    border-radius: 20px;
-    box-shadow: 0 0 15px black;
-    transition: .2s ease-in-out;
-    position: relative;
-    margin: 35px;
-    display: block;
-    width: 320px;
-    float: left; 
-    height: 500px;
-    padding: 10px;
-}
-.pasteries-section .thumbnail {
-    float: left;
-    position: relative;
-    width: 320px;
-    height: 330px;
-    border-radius: 15px 15px 10px 10px;
-    cursor: pointer;
-}
-
-/* pateries end */
-
-
-
-
-/* coldrink start */
-.coldrink .hd {
-    color:  rgb(180, 105, 8);
-}
-
-.pasteries h4 {
-    
-}
-
-.coldrink .thumbnail-row2 {
-    grid-template-rows: auto 1fr;
-    border-radius: 20px;
-    box-shadow: 0 0 15px black;
-    transition: .2s ease-in-out;
-    position: relative;
-    margin: 35px;
-    display: block;
-    width: 320px;
-    float: left; 
-    height: 500px;
-    padding: 10px;
-}
-.coldrink .thumbnail {
-    float: left;
-    position: relative;
-    width: 320px;
-    height: 330px;
-    border-radius: 15px 15px 10px 10px;
-    cursor: pointer;
-}
-/* coldrink end */
-
-
-
-
-
-
-h5 {
-    font-weight: bolder;
-    font-size: 17px;
-    padding: 10px;
-    margin-bottom: 0px;
-    margin-top: 5px;
-}
-.thumbnail-row2 p {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.nav button {
-    background-color: rgb(163, 95, 5);
-    color: white;
-    border: none;
-    display: inline-table;
-    margin: 10px;
+    color: #fff;
     padding: 0px;
-    margin-left: 90px;
-}
-.box img {
+    border-radius: 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  nav ul li a:hover {
+    color: black;
+      
+  }
+  nav h2 {
+    font-size: 4.5vmin;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+
+  } 
+   button {
+    color: azure;
+    padding: 10px;
+    margin: 16px 0px;
+    font-size: 3vmin;
+    background-color: rgb(180, 105, 8);
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
+   button:hover {
+    color: black;
+  }
+   button:active {
+    color: beige;
+  }
+  nav ul li a:active {
+    color: beige;
+  }
+  
+  nav ul li {
+    margin-left: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .logo .name {
+    width: 350px;
+    font-size: 5vmin;
+    padding: 16px 0 16px 0px;
+    margin: 0px;
+  }
+  .logo img {
     float: left;
     display: block;
     width: 45px;
     border-radius: 70px;
     padding: 10px;
     grid-template-columns:1fr 100px 0px;
+
+  }
+body {
+    background-color: rgb(107, 66, 30); 
     
 }
+.line {
+    width: 150px;
+    height: 4px;
+    background:  rgb(180, 105, 8);
+    border-radius: 5px;
+    margin: 10px auto;
+}
 
+span {
+    color: rgb(180, 105, 8);
+}
+.pasteries h2 {
+    text-align: center;
+    font-size: 7vmin;
+    margin-bottom: 5PX;
+}
+.hot h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 7vmin;
+  margin-bottom: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+    
+  }
+  .row .col img {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    padding: 12px;
+  }
+  
+  .hot .row {
+    margin-top: 50px;
+  }
+  .row .col {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 50vmin;
+    height: 530px;
+
+  }
+  .col h4 {
+    font-size: 4vmin;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px auto;
+  }
+  .col p {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 40px;
+    margin-top: 0px;
+    font-size: 2.5vmin;
+  }
+  .hot .ctn {
+    margin-top: 10px;
+    background-color: rgb(180, 105, 8);
+    padding: 10px;
+    border-radius: 10px;
+    color: azure;
+    cursor: pointer;
+  }
+  .hot .ctn:hover {
+    color: black;
+    background-color: rgb(248, 245, 245);
+  }
+  .hot .ctn:active {
+    color: rgb(180, 105, 8);
+    background-color: #fff;
+  }
